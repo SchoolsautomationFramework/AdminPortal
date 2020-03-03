@@ -1,0 +1,44 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var protractor_1 = require("protractor");
+var B2CRegistrationPO = /** @class */ (function () {
+    function B2CRegistrationPO() {
+        this.Candidate_FirstName = B2CRegistrationPO.FirstName;
+        this.Candidate_LastName = B2CRegistrationPO.LastName;
+    }
+    B2CRegistrationPO.Registrations = protractor_1.element(protractor_1.by.id("registrations-menu-button"));
+    B2CRegistrationPO.B2CRegistrations = protractor_1.element(protractor_1.by.id("b2cRegistration-menu-button"));
+    B2CRegistrationPO.AddCandidate = protractor_1.element(protractor_1.by.id("addB2CCandidate-button"));
+    B2CRegistrationPO.Day = protractor_1.element(protractor_1.by.name("dateFields.day"));
+    B2CRegistrationPO.Selectmonth = protractor_1.element(protractor_1.by.css("body > div.modal.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > ng-form > div > div > form > div.form-group > div > p > div > div:nth-child(2) > select"));
+    B2CRegistrationPO.Year = protractor_1.element(protractor_1.by.name("dateFields.year"));
+    B2CRegistrationPO.Title = protractor_1.element(protractor_1.by.id("TitleId"));
+    B2CRegistrationPO.FirstName = protractor_1.element(protractor_1.by.name("FirstName"));
+    B2CRegistrationPO.LastName = protractor_1.element(protractor_1.by.name("LastName"));
+    B2CRegistrationPO.Email = protractor_1.element(protractor_1.by.name("Email"));
+    B2CRegistrationPO.Gender = protractor_1.element(protractor_1.by.model("vm.data.CandidateDetails.Gender"));
+    B2CRegistrationPO.AddressLine1 = protractor_1.element(protractor_1.by.id("address-input"));
+    B2CRegistrationPO.AddressLine2 = protractor_1.element(protractor_1.by.id("address2-input"));
+    B2CRegistrationPO.City = protractor_1.element(protractor_1.by.id("city-input"));
+    B2CRegistrationPO.CountryDrpdwn = protractor_1.element(protractor_1.by.css("#country-select > div.ui-select-match.ng-scope > span"));
+    B2CRegistrationPO.CountrySelctn = protractor_1.element(protractor_1.by.xpath("//div[contains(text(),'Afghanistan')]"));
+    B2CRegistrationPO.Next = protractor_1.element(protractor_1.by.id("next-button"));
+    B2CRegistrationPO.Qualificationlevel = protractor_1.element(protractor_1.by.css("#qualificationLevel"));
+    B2CRegistrationPO.Standard = protractor_1.element(protractor_1.by.model("vm.item.retake.Type"));
+    B2CRegistrationPO.Session = protractor_1.element(protractor_1.by.css("#sessionMilestone "));
+    B2CRegistrationPO.Location = protractor_1.element(protractor_1.by.css("#location "));
+    B2CRegistrationPO.Exam = protractor_1.element(protractor_1.by.className("ui-select-placeholder text-muted ng-binding"));
+    B2CRegistrationPO.Subject = protractor_1.element(protractor_1.by.xpath("//*[contains(text(), '9706AY  ACCOUNTING - GCE A LEVEL OPT AY')]"));
+    B2CRegistrationPO.Addexam = protractor_1.element(protractor_1.by.xpath("//button[@id='add-exam-button']"));
+    B2CRegistrationPO.Nextbutton = protractor_1.element(protractor_1.by.xpath("//button[@id='next-button']"));
+    B2CRegistrationPO.IDdocument = protractor_1.element(protractor_1.by.className("ui-select-placeholder text-muted ng-binding"));
+    B2CRegistrationPO.IDdocumentType = protractor_1.element(protractor_1.by.xpath("//*[contains(text(), 'Passport')]"));
+    B2CRegistrationPO.DocumentNumber = protractor_1.element(protractor_1.by.id("DocumentNumber"));
+    B2CRegistrationPO.ExpiryDay = protractor_1.element(protractor_1.by.name("dateFields.day"));
+    B2CRegistrationPO.ExpiryMonth = protractor_1.element(protractor_1.by.css("body > div.modal.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > ng-form > div > div > form > div:nth-child(4) > div > p > div > div:nth-child(2) > select"));
+    B2CRegistrationPO.ExpiryYear = protractor_1.element(protractor_1.by.name("dateFields.year"));
+    B2CRegistrationPO.Issuingauthority = protractor_1.element(protractor_1.by.id("IssuingAuthority"));
+    B2CRegistrationPO.Savebutton = protractor_1.element(protractor_1.by.id("save-button"));
+    return B2CRegistrationPO;
+}());
+exports.B2CRegistrationPO = B2CRegistrationPO;
