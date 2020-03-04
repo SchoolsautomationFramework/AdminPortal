@@ -14,7 +14,7 @@ export class b2cPaymentLib
     {
         waitStatementUtil.customWait2()
         b2cPaymentPO.MakePayment.click();
-        waitStatementUtil.customWait2()
+        //waitStatementUtil.customWait2()
    
    let paymentTypedrpDwn:selectUtil = new selectUtil(b2cPaymentPO.PaymentType);
         waitStatementUtil.customWait1()

@@ -8,7 +8,7 @@ export let config: Config = {
   framework: 'jasmine',
   specs: ['./Spec/*.js'],
   jasmineNodeOpts: {
-    defaultTimeoutInterval: 90000
+    defaultTimeoutInterval: 9000000
   },
   onPrepare:async () => {
     await browser.waitForAngularEnabled(false);
