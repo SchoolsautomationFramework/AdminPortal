@@ -85,14 +85,14 @@ export class b2bRegistrationAdminPortalLib
         b2bRegistrationAdminPortalPO.b2bFirstnameValidation.click()
         waitStatementUtil.customWait1()
         b2bRegistrationAdminPortalPO.b2bFirstnameValidation.sendKeys(firstname)
-        //waitStatementUtil.customWait1()
+        waitStatementUtil.customWait1()
         waitStatementUtil.customWait2()
         b2bRegistrationAdminPortalPO.b2blastnameValidation.click()
         waitStatementUtil.customWait2()
-       // waitStatementUtil.customWait2()
+       waitStatementUtil.customWait2()
         b2bRegistrationAdminPortalPO.b2blastnameValidation.sendKeys(lastname)
         waitStatementUtil.customWait2()
-       // waitStatementUtil.customWait2()
+       waitStatementUtil.customWait2()
     }
 
     

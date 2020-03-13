@@ -46,7 +46,7 @@ exports.config = {
     framework: 'jasmine',
     specs: ['./Spec/*.js'],
     jasmineNodeOpts: {
-        defaultTimeoutInterval: 90000
+        defaultTimeoutInterval: 9000000
     },
     onPrepare: function () { return __awaiter(void 0, void 0, void 0, function () {
         return __generator(this, function (_a) {

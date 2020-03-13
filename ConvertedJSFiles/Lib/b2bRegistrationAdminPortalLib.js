@@ -80,14 +80,14 @@ var b2bRegistrationAdminPortalLib = /** @class */ (function () {
         b2bRegistrationAdminPortalPO_1.b2bRegistrationAdminPortalPO.b2bFirstnameValidation.click();
         waitStatementUtil_1.waitStatementUtil.customWait1();
         b2bRegistrationAdminPortalPO_1.b2bRegistrationAdminPortalPO.b2bFirstnameValidation.sendKeys(firstname);
-        waitStatementUtil_1.waitStatementUtil.customWait2();
+        //waitStatementUtil.customWait1()
         waitStatementUtil_1.waitStatementUtil.customWait2();
         b2bRegistrationAdminPortalPO_1.b2bRegistrationAdminPortalPO.b2blastnameValidation.click();
         waitStatementUtil_1.waitStatementUtil.customWait2();
-        waitStatementUtil_1.waitStatementUtil.customWait2();
+        // waitStatementUtil.customWait2()
         b2bRegistrationAdminPortalPO_1.b2bRegistrationAdminPortalPO.b2blastnameValidation.sendKeys(lastname);
         waitStatementUtil_1.waitStatementUtil.customWait2();
-        waitStatementUtil_1.waitStatementUtil.customWait2();
+        // waitStatementUtil.customWait2()
     };
     return b2bRegistrationAdminPortalLib;
 }());
